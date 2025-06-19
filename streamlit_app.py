@@ -4,3 +4,5 @@ from crewai import Agent, Task, Crew, LLM
 import os
 
 load_dotenv()
+
+llm=LLM(model="")
