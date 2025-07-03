@@ -8,6 +8,6 @@ load_dotenv()
 
 llm=LLM(
   provider="google",
-  model="gemini/gemini-1.5-flash-8B",
+  model="gemini/gemini-1.5-flash-8B", # u can use other model
   api_key=os.getenv("GROQ_API_KEY")
 )
